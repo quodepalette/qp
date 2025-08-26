@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 
 
 /* ●●●●●●●●●●●●●●●●●●●●● */
@@ -300,7 +302,7 @@ a {
 }
 
 .section-header h2 {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -330,7 +332,7 @@ a {
 }
 
 .section-header h3 {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     color: var(--color-dark);
     font-size: 1.5rem;
     margin-top: 1.5rem;
@@ -403,7 +405,7 @@ a {
 
 /* LOGO TEXT */
 .logo {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-weight: var(--font-weight-extrabold);
     font-size: 18px;
     background: var(--gradient-text);
@@ -628,7 +630,7 @@ h1 {
 }
 
 p.hero-subtitle {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-weight: 400;
     font-size: var(--font-size-lg);
     max-width: 800px;
@@ -1216,7 +1218,7 @@ p.hero-subtitle {
 /* MOUSE GUIDE TOAST - RESPONSIVE */
 /* ●●●●●●●●●●●●●●●●●●●●● */
 .mouse-guide {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     position: fixed;
     bottom: 30px;
     left: 50%;
@@ -1783,7 +1785,7 @@ nav {
 }
 
 .stat-number {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--color-primary) !important;
@@ -2003,7 +2005,7 @@ nav {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .service-description {
@@ -2225,7 +2227,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-weight: 700;
     font-size: 1.5rem;
     color: var(--color-secondary);
@@ -2244,7 +2246,7 @@ nav {
 }
 
 .step-info h3 {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-light);
@@ -3119,7 +3121,7 @@ nav {
 }
 
 .cta-section h2 {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 700;
     color: white;
@@ -3434,7 +3436,7 @@ textarea::-ms-input-placeholder {
     display: inline-block;
     padding: 0.75rem 2rem;
     font-size: 1rem;
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     color: #d6d6d6;
     font-weight: 500;
 }
@@ -3468,11 +3470,23 @@ textarea::-ms-input-placeholder {
 /* LIVE DEMO */
 /* ●●●●●●●●●●●●●●●●●●●●● */
 
+.live-demos {
+    --bg: hsl(0 0% 100%);
+    --card: hsl(0 0% 100%);
+    --text: hsl(220 15% 15%);
+    --muted: hsl(220 10% 45%);
+    --ring: hsl(220 90% 60%);
+    --shadow: 0 10px 25px hsl(220 10% 10% / 0.08);
+    --radius: 18px;
+    --gap: clamp(0.9rem, 2vw, 1.25rem);
+    background: linear-gradient(180deg, #161b25 0%, #121621 100%);
+    color: var(--text);
+    padding: clamp(1.25rem, 3vw, 2rem);
+}
 
 .live-demos h2 {
     font-size: 1.5rem;
 }
-
 
 .live-demos__header {
     display: flex;
@@ -3521,7 +3535,8 @@ textarea::-ms-input-placeholder {
     padding: 0.4rem 0.6rem;
     border: 1px dashed hsl(220 14% 80% / 0.5);
     border-radius: 999px;
-    color: var(--muted);
+    color: white;
+    font-weight: 300;
     margin: 0.85rem 0.85rem 0 0.85rem;
     user-select: none;
 }
@@ -3535,12 +3550,13 @@ textarea::-ms-input-placeholder {
 .demo-card__title {
     font-size: clamp(1rem, 2.2vw, 1.1rem);
     font-weight: 650;
+    color: white;
     letter-spacing: -0.01em;
 }
 
 .demo-card__desc, .demo-p {
     font-size: 0.92rem;
-    color: var(--muted);
+    color: rgb(155, 155, 155);
 }
 
 .demo-p {
