@@ -116,6 +116,7 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     caret-color: #06b6d4;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 /* ●●●●●●●●●●●●●●●●●●●●● */
@@ -3756,4 +3757,5 @@ textarea::-ms-input-placeholder {
     .btn {
         transition: none;
     }
+
 }
