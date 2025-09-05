@@ -3378,7 +3378,7 @@ textarea::-ms-input-placeholder {
     --gap: clamp(0.9rem, 2vw, 1.25rem);
     background: linear-gradient(180deg, #161b25 0%, #121621 100%);
     color: var(--text);
-    padding: clamp(5rem, 3vw, 2rem);
+    padding: clamp(3rem, 3vw, 2rem);
 }
 
 .live-demos h2 {
@@ -3644,4 +3644,5 @@ textarea::-ms-input-placeholder {
     .btn {
         transition: none;
     }
+
 }
